@@ -5,76 +5,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Um blog sobre a teologia luterana, curiosidades e o que você precisa saber">
-    <meta name="keywords" content="teologia, biblia, luterano, luteranismo, lutero, irmão, artigos, irmão luterano, portal luterano">
+    <meta name="keywords"
+        content="teologia, biblia, luterano, luteranismo, lutero, irmão, artigos, irmão luterano, portal luterano">
     <meta name="author" content="Irmão Luterano">
 
     <title>O irmão Luterano</title>
     <link rel="icon" href="img/icons/icon-web.svg" type="image/png">
 
-    <!-- Fonts -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-    <!-- CSS -->
     <link rel="stylesheet" href="src/styles/root.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/utils.css">
     <link rel="stylesheet" href="src/styles/index.css">
 </head>
 
 <body>
-    <!-- ====Header Content===== -->
     <header>
-        <div class="logo-content">
-            <img id="logo" src="/img/icons/logo.png" alt="o irmão luterano logo">
-            <h1 id="title">O irmão Luterano</h1>
+        <div class="circle">
         </div>
-        <nav>
-            <ul>
-                <li><a href="/">Início</a></li>
-                <!-- <li><a href="/sobre">Sobre</a></li> -->
-                <!-- <li><a href="/contato">Contato</a></li> -->
-                <li><a href="/artigos">Artigos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="intro">
-        <h1><strong>Bem-vindo ao O Irmão Luterano!</strong></h1>
-        <p>
-            Como irmãos em Cristo, somos chamados a crescer juntos na fé e no conhecimento da Palavra de Deus. Este
-            blog é uma iniciativa pessoal para compartilhar com você a beleza e a profundidade da teologia luterana,
-            uma tradição que tem suas raízes na Reforma Protestante e continua a inspirar e transformar vidas ao
-            redor do mundo.
-        </p>
-        <p>
-            Aqui em <strong>O Irmão Luterano</strong>, você encontrará uma vasta gama de artigos dedicados a explorar as doutrinas
-            centrais da fé luterana, as crenças que nos sustentam, e a rica hermenêutica que nos ajuda a interpretar
-            as Escrituras com clareza e fidelidade. Meu foco é divulgar a Igreja Evangélica Luterana do Brasil
-            (IELB) e tudo o que ela representa: um compromisso com a pureza do Evangelho, a centralidade de Cristo e
-            a graça de Deus que nos alcança.
-        </p>
-        <p>
-            Quero proporcionando recursos valiosos, como recomendações de livros essenciais, estudos teológicos
-            profundos e reflexões sobre a prática da fé no dia a dia. 
-            Minha esperança é que, ao navegar por estas páginas, você aprenda com a
-            herança luterana e fique mais fortalecido em sua caminhada cristã.
-        </p>
-        <p>
-            Que o Espírito Santo guie sua leitura e ilumine seu entendimento. Que cada artigo e reflexão aqui
-            compartilhados possam fortalecer sua fé e sua vida em comunidade.
-
-            <strong>Em Cristo, seu irmão luterano.</strong>
-        </p>
-    </div>
-    <!-- =======Header Content====== -->
-    <main>
-        <section id="posts">
-
+        <section id="home">
+            <div id="logo">
+                <img src="/img/logo_white.svg" alt="Logo" srcset="">
+                <div>
+                    <span><strong>O Irmão <br>Luterano </strong></span>
+                </div>
+            </div>
+            <div id="apresentacao">
+                <h1>Bem-vindo ao <br>“O Irmão Luterano”</h1>
+                <span>O que iremos ler hoje?</span>
+            </div>
+            <img id="image-home" src="/img/bible_home.svg" alt="Biblia">
+            <nav>
+                <ul>
+                    <li><a href="#motivacao">Motivação</a></li>
+                    <li><a href="#descubra">Artigos</a></li>
+                    <li><a href="#descubra">Recomendações</a></li>
+                    <li><a href="#descubra">Posts</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#home">IELB</a></li>
+                </ul>
+            </nav>
+            <a href="#motivacao" id="arrow-desce">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
+                </svg>
+            </a>
         </section>
+    </header>
+    <main>
+        <section id="motivacao">
+            <div class="background"></div>
+            <img src="/img/motivation_cross.svg" alt="Cruz de Cristo" id="motivation-cross">
+            <article>
+                <header>
+                    <h1>Motivação</h1>
+                    <p>
+                        Como irmãos em Cristo, somos chamados a crescer juntos na fé e no conhecimento da Palavra de
+                        Deus. Este blog é uma iniciativa pessoal para compartilhar com você a beleza e a profundidade da
+                        teologia luterana, uma tradição que tem suas raízes na Reforma Protestante e continua a inspirar
+                        e transformar vidas ao redor do mundo.
+                    </p>
+                    <p>
+                        Aqui em O Irmão Luterano, você encontrará uma vasta gama de artigos dedicados a explorar as
+                        doutrinas centrais da fé luterana, as crenças que nos sustentam, e a rica hermenêutica que nos
+                        ajuda a interpretar as Escrituras com clareza e fidelidade. Meu foco é divulgar a Igreja
+                        Evangélica Luterana do Brasil (IELB) e tudo o que ela representa: um compromisso com a pureza do
+                        Evangelho, a centralidade de Cristo e a graça de Deus que nos alcança.
+                    </p>
+                    <p>
+                        Quero proporcionando recursos valiosos, como recomendações de livros essenciais, estudos
+                        teológicos profundos e reflexões sobre a prática da fé no dia a dia. Minha esperança é que,
+                        ao navegar porestas páginas, você aprenda com a herança luterana e fique mais fortalecido
+                        em sua caminhada cristã.
+                    </p>
+                    <p>
+                        Que o Espírito Santo guie sua leitura e ilumine seu entendimento. Que cada artigo e reflexão
+                        aqui compartilhados possam fortalecer sua fé e sua vida em comunidade.
+                    </p>
+                    <p>Em Cristo, seu irmão luterano.</p>
+                </header>
+            </article>
+        </section>
+        <section id="descubra">
+            <h1>Descubra</h1>
+            <div id="itens">
+                <div id="recomendacao">
+                    <img src="/img/verificado_icon.svg" alt="Icone de recomendações">
+                    <h1>Recomendações</h1>
+                    <p>Livros, documentos e Leituras para entender melhor o luteranismo e a igreja luterana</p>
+                </div>
+                <div id="artigos">
+                    <img src="/img/artigos_icon.svg" alt="Icone de artigos">
+                    <h1>Artigos</h1>
+                    <p>Artigos com diversos temas e autores com explicações interessantes sobre o que acreditamo</p>
+                </div>
+                <div id="posts">
+                    <img id="post-icon" src="/img/posts_icon.svg" alt="icone de posts">
+                    <h1>Posts</h1>
+                    <p>Postagens de opinião, lançamentos e novidades no blog</p>
+                </div>
+            </div>
+        </section>
+        
     </main>
     <footer>
-        <p>&copy; 2024 Irmão Luterano. Todos os direitos reservados.</p>
+        <div class="circle"></div>
+        <h1 id="contact-title">Obrigado por chegar até aqui</h1>
+        <section id="compromisso">
+            <img src="/img/logo_white.svg" alt="Logo Irmão Luterano">
+            <div>
+                <p>
+                    Não se engane, meu compromisso é pregar o Cristo crucificado,
+                    aquele que é Deus e homem, que morreu para nos salvar.
+                </p>
+            </div>
+        </section>
+        <div class="interaction">
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Email: irmaoluterano@gmail.com</p>
+                <p>Telefone: (00) 0000-0000</p>
+            </section>
+            <section id="links-importantes">
+                <h2>Links Importantes</h2>
+                <ul>
+                    <li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+                    <li><a href="/termos-de-uso">Termos de Uso</a></li>
+                </ul>
+            </section>
+            <section id="redes-sociais">
+                <h2>Siga-nos</h2>
+                <ul>
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <!-- <li><a href="https://twitter.com/seublog">Twitter</a></li> -->
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                </ul>
+            </section>
+        </div>
+        <!-- <section id="newsletter">
+            <h2>Assine a Newsletter</h2>
+            <form action="/inscrever" method="post">
+                <label for="email-footer">Email:</label>
+                <input type="email" id="email-footer" name="email" required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section> -->
+        <section id="creditos">
+            <div id="logo">
+                <img src="/img/logo_white.svg" alt="Logo" srcset="">
+                <p>O Irmão Luterano </p>
+            </div>
+            <p>&copy; 2024 O irmão luterano. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <a href="#compromisso">Irmão Luterano</a></p>
+        </section>
+        <!-- <section id="mapa-do-site">
+            <h2>Mapa do Site</h2>
+            <a href="/mapa-do-site">Veja o Mapa do Site</a>
+        </section> -->
+        <!-- <section id="ultimos-posts">
+            <h2>Últimos Posts</h2>
+            <ul>
+                <li><a href="/post-recente-1">Título do Post Recente 1</a></li>
+                <li><a href="/post-recente-2">Título do Post Recente 2</a></li>
+                <li><a href="/post-recente-3">Título do Post Recente 3</a></li>
+            </ul>
+        </section> -->
     </footer>
 </body>
-<script src="/src/scripts/index.js"></script>
+
 </html>
