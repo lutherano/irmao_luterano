@@ -27,3 +27,9 @@ input[type=radio]{
     appearance: auto;
     margin: 3px 3px 3px 4px;
 }
+
+hr {
+    border: 1px solid #363949;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

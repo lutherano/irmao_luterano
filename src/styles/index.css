@@ -390,7 +390,10 @@ footer .circle {
 
 .interaction {
     position: absolute;
-    bottom: 7vh;
+    bottom: 4.5vh;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
+    /* background-color: #022350; */
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -402,7 +405,7 @@ footer .circle {
 #contato,
 #links-importantes,
 #redes-sociais {
-    width: 30%;
+    width: fit-content;
     color: #fff
 }
 
